@@ -469,7 +469,15 @@ BOOKS PAGE
     justify-content: center;
     padding-top: 60px;
     font-size: 60px;
-    color: #7342d6;
+    color: #f50057;
+  }
+
+  .books__loading--spinner {
+    display: none !important;
+  }
+
+  .books__loading .books__loading--spinner {
+    display: block !important;
   }
   
   .fa-spinner {
